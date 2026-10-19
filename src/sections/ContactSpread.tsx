@@ -78,7 +78,7 @@ export const ContactSpread: React.FC = () => {
         {/* Botanical Flat-Lay Image with Framed Look */}
         <div className="relative rounded-2xl overflow-hidden border-[6px] border-cream-50 shadow-soft bg-sand-200 aspect-[16/9] mb-6 photo-warm-grade">
           <img
-            src="/images/contact-botanical.jpg"
+            src="./images/contact-botanical.jpg"
             alt="Botanical flat-lay with dried flowers"
             className="w-full h-full object-cover"
             loading="lazy"

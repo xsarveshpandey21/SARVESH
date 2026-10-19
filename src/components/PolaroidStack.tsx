@@ -6,7 +6,7 @@ export const PolaroidStack: React.FC = () => {
 
   const photos = [
     {
-      src: '/images/education-botanical.jpg',
+      src: './images/education-botanical.jpg',
       caption: 'Analytical Foundations & Research',
       rotateDefault: -6,
       rotateFanned: -16,
@@ -16,7 +16,7 @@ export const PolaroidStack: React.FC = () => {
       yFanned: 10,
     },
     {
-      src: '/images/about-botanical.jpg',
+      src: './images/about-botanical.jpg',
       caption: 'Natural Algorithms & GenAI Systems',
       rotateDefault: 4,
       rotateFanned: 14,
@@ -26,7 +26,7 @@ export const PolaroidStack: React.FC = () => {
       yFanned: 12,
     },
     {
-      src: '/images/profile.jpg',
+      src: './images/profile.jpg',
       caption: 'Sarvesh Pandey • Data Scientist',
       rotateDefault: 0,
       rotateFanned: 0,

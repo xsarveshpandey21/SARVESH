@@ -152,7 +152,7 @@ export const CoverPage: React.FC<CoverPageProps> = ({
             className="relative w-full h-full rounded-2xl overflow-hidden border-[6px] border-cream-50 shadow-[0_20px_45px_-10px_rgba(43,48,46,0.35)] bg-sand-200 photo-warm-grade"
           >
             <img
-              src="/images/profile.jpg"
+              src="./images/profile.jpg"
               alt={`${PERSONAL_INFO.name} — ${PERSONAL_INFO.title}`}
               className="w-full h-full object-cover object-top filter contrast-[1.03] transition-transform duration-700 hover:scale-105"
             />

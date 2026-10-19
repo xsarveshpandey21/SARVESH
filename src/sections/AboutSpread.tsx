@@ -59,7 +59,7 @@ export const AboutSpread: React.FC = () => {
         {/* Main Framed Arch Photo (about-1.jpg) */}
         <div className="relative w-48 sm:w-56 aspect-[3/4] mx-auto rounded-t-[999px] rounded-b-2xl overflow-hidden border-[8px] border-cream-50 shadow-page bg-sand-200 photo-warm-grade">
           <img
-            src="/images/about-1.jpg"
+            src="./images/about-1.jpg"
             alt="Sarvesh Pandey in laboratory"
             className="w-full h-full object-cover filter contrast-[1.03]"
             loading="lazy"
@@ -74,7 +74,7 @@ export const AboutSpread: React.FC = () => {
         >
           <div className="aspect-[4/3] rounded-lg overflow-hidden bg-sand-200 mb-2 photo-warm-grade">
             <img
-              src="/images/about-2.jpg"
+              src="./images/about-2.jpg"
               alt="Engineering desk flat-lay"
               className="w-full h-full object-cover"
               loading="lazy"
